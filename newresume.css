@@ -1,0 +1,59 @@
+.body {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #47909940);
+}
+
+.contactIcons {
+    vertical-align: middle;
+    width: 20px;
+    border-top: 5px;
+    margin-right: 15px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 10px;
+    background: #d3d3d32c;
+}
+
+.contactItem {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.content {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.date {
+    float: right;
+}
+
+.left {
+    float: left;
+    width: 45%;
+    height: 400px;
+}
+
+.right {
+    float: right;
+    height: 400px;
+    width: 45%;
+}
+
+.body {
+    margin: 20px;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+    }
+}
